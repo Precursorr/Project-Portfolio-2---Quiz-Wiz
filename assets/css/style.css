@@ -17,13 +17,32 @@ body {
 
 
 /* Header */
+.heading > h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 15px;
+    color: beige;
+}
+
+/* Intro */
+.intro > h4 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.intro > p {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
 
 /* Quiz overview */
 .quiz-overview {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px 0;
+    margin: 150px 0;
 }
 
 .quiz-options {
