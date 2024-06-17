@@ -37,6 +37,11 @@ body {
     padding-top: 10px;
 }
 
+.intro > div {
+    text-align: center;
+    border-radius: 10px;
+}
+
 /* Quiz overview */
 .quiz-overview {
     display: flex;
