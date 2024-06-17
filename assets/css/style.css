@@ -9,8 +9,6 @@
 body {
     color: #ffffff;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-image: url(../images/Quiz\ hero\ img.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -19,17 +17,29 @@ body {
 
 
 /* Header */
-header {
 
+/* Quiz overview */
+.quiz-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0;
 }
 
-/* Main */
-main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
+.quiz-options {
+    width: 600px;
+    height: 400px;
 }
 
-/* Footer */
-footer {
+.quiz-options > img {
+    width: 100%;
+    height: 340px;
+}
 
+/* Align text */
+.quiz-options > h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 200%;
+    color: #ffffff;
 }
