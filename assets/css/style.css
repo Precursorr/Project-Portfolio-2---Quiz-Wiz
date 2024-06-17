@@ -7,12 +7,16 @@
 
 /* Body - General styles */
 body {
-    background-color: black;
-    color: white;
+    color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
+    background-image: url(../images/Quiz\ hero\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
 /* Header */
 header {
