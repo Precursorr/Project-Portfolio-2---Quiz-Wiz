@@ -19,6 +19,10 @@ body {
     font-family: 'Kanit', sans-serif;
   }
 
+/* Homepage */
+.homepage {
+    display: none;
+}
 
 /* Header */
 .heading > h1 {
@@ -29,19 +33,19 @@ body {
 }
 
 /* Intro */
-.intro > h4 {
+.hp-intro > h4 {
     text-align: center;
     font-size: 2rem;
     padding-top: 20px;
 }
 
-.intro > p {
+.hp-intro > p {
     text-align: center;
     font-size: 1.5rem;
     padding-top: 10px;
 }
 
-.intro > div {
+.hp-intro > div {
     text-align: center;
     border-radius: 10px;
 }
@@ -88,5 +92,36 @@ body {
     padding-top: 5px;
     font-size: 150%;
     color: #ffffff;
+}
+
+/* HTML & CSS Quiz */
+.hc-quiz {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hc-q {
+    font-size: 2rem;
+    margin: 5px;
+    letter-spacing: 2px;
+}
+
+.hc-q1-answer-list {
+    margin: 10px;
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hc-button-style {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #000000;
+    font-size: 1rem;
+    color: #000000;
+    margin: 7px;
 }
 
